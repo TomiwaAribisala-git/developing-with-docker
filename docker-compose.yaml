@@ -14,7 +14,7 @@ services:
     volumes:
      - mongo-data:/data/db
   mongo-express:
-    image: mongo-express
+    image: mongo-express 
     restart: always
     ports:
      - 8080:8081
